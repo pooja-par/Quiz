@@ -77,3 +77,12 @@ body {
       text-align: center;
       margin-top: 30px;
   }
+  .correct {
+      background-color: #43a047;
+
+  }
+
+  .incorrect {
+      background-color: #e53935;
+
+  }
