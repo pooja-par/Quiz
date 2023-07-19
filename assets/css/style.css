@@ -51,3 +51,20 @@ body {
      transition: background-color 0.3s ease;
      box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
  }
+ .btn:hover {
+     background-color: #e0e0e0;
+ }
+
+
+ #next-btn {
+     display: block;
+     margin: 20px auto 0;
+     padding: 12px 30px;
+     background-color: #4CAF50;
+     color: #fff;
+     border: none;
+     border-radius: 5px;
+     cursor: pointer;
+     transition: background-color 0.3s ease;
+     box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+ }
