@@ -128,6 +128,22 @@ function startQuiz() {
     nextButton.innerHTML = "Next";
     showQuestion();
 }
+function showQuestion() {
+    resetState();
+    let currectQuestion = questions[currectQuestionIndex];
+    let questionNo = currectQuestionIndex + 1;
+    questionElement.innerHTML = questionNo + ". " + currectQuestion.
+        question;
+
+    currectQuestion.answers.forEach(answer => {
+        const button = document.createElement("button"); // Create a button for each answer
+        button.innerHTML = answer.text;
+        button.classList.add("btn"); // Add the "btn" class to the button
+        answerButtons.appendChild(button);  // Append the button to the answer buttons container
+        if (answer.correct) {
+            button.dataset.correct = answer.correct; // Set a data attribute for the correct answer
+
+        }
 
 
 
