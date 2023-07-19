@@ -43,3 +43,39 @@ const questions = [
 
     },
 
+    {
+        question: "Which player took the most wickets in the 2019 Cricket World Cup?",// Fifth question
+        answers: [
+            { text: "David Warner", correct: false },
+            { text: "virendra sehwag", correct: false },
+            { text: "AB de Villiers", correct: false },
+            { text: "Mitchell Starc", correct: true },
+
+
+        ]
+    },
+
+    {
+        question: "The first official international cricket match was held in 1844 between which two nations?",// Sixth question
+        answers: [
+            { text: "Australia and USA", correct: false },
+            { text: "India and pakistan", correct: false },
+            { text: "Canada and USA", correct: true },
+            { text: "Shane Warne", correct: false },
+        ]
+
+    },
+
+    {
+        question: "How many days did the longest recorded Test match last?",// seventh question
+        answers: [
+            { text: 6, correct: false },
+            { text: 2, correct: false },
+            { text: 3, correct: false },
+            { text: 9, correct: true },
+        ]
+
+    },
+
+    
+
