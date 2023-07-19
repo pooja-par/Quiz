@@ -160,5 +160,23 @@ function resetState() {
     }
 }
 
+function selectAnswer(e) {
+    const selectedBtn = e.target;
+    const isCorrect = selectedBtn.dataset.correct === "true"; // Check if the selected answer is correct
+    if (isCorrect) {
+        selectedBtn.classList.add("correct"); // Add "correct" class to the selected button
+        score++; // Increment the score if the answer is correct
+
+    } else {
+        selectedBtn.classList.add("incorrect");  // Add "incorrect" class to the selected button
+
+    }
+
+    Array.from(answerButtons.children).forEach(button => {
+        if (button.dataset.correct === "true") {
+            button.classList.add("correct"); // Add "correct" class to the buttons with correct answers
+
+        }
+
 
 
