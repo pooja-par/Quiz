@@ -114,5 +114,20 @@ const questions = [
 
 ];
 
+const questionElement = document.getElementById("question");// Reference to the question element
+const answerButtons = document.getElementById("answer-buttons");// Reference to the answer buttons container
+const nextButton = document.getElementById("next-btn");// Reference to the next button element
+
+
+let currectQuestionIndex = 0; // Index of the current question
+let score = 0; // Score tracker
+
+function startQuiz() {
+    currectQuestionIndex = 0;
+    score = 0;
+    nextButton.innerHTML = "Next";
+    showQuestion();
+}
+
 
 
