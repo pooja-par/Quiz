@@ -178,5 +178,45 @@ function selectAnswer(e) {
 
         }
 
+        button.disabled = true; // Disable all buttons after an answer is selected
+
+    });
+    nextButton.style.display = "block"; // Show the next button after an answer is selected
+
+
+}
+
+
+function showScore() {
+    resetState();
+    questionElement.innerHTML = `You scored ${score} out of ${questions.length}!`;
+    nextButton.innerHTML = "Play Again";
+    nextButton.style.display = "block";
+}
+
+function handleNextButton() {
+    currectQuestionIndex++;
+    if (currectQuestionIndex < questions.length) {
+        showQuestion();
+
+    } else {
+        showScore();
+    }
+}
+
+
+
+nextButton.addEventListener("click", () => {
+    if (currectQuestionIndex < questions.length) {
+        handleNextButton();
+    } else {
+        startQuiz();
+    }
+});
+
+
+startQuiz();
+
+
 
 
