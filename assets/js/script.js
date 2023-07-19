@@ -145,5 +145,20 @@ function showQuestion() {
 
         }
 
+        button.addEventListener("click", selectAnswer); // Add click event listener to the button
+
+
+    });
+
+}
+
+
+function resetState() {
+    nextButton.style.display = "none";
+    while (answerButtons.firstChild) {
+        answerButtons.removeChild(answerButtons.firstChild); // Clear the answer buttons container
+    }
+}
+
 
 
