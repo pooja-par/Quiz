@@ -77,5 +77,42 @@ const questions = [
 
     },
 
-    
+    {
+        question: "Nasser Hussain last captained the England Test team in which year?",// Eighth question
+        answers: [
+            { text: 2019, correct: false },
+            { text: 2007, correct: false },
+            { text: 2004, correct: false },
+            { text: 2003, correct: true },
+        ]
+
+    },
+
+    {
+        question: "Eoin Morgan has played more ODI matches for Ireland than he has played Test matches for England – true or false?",// Ninth question
+        answers: [
+            { text: false, correct: false },
+            { text: false, correct: false },
+            { text: true, correct: true },
+            { text: false, correct: false },
+        ]
+
+    },
+
+    {
+        question: "Who has recorded the most career runs in England Test match cricket?",// tenth question
+        answers: [
+            { text: "James Anderson", correct: false },
+            { text: "Ollie Robinso", correct: false },
+            { text: "Stuart Broad", correct: false },
+            { text: "Alastair Cook", correct: true },
+        ]
+
+    },
+
+
+
+];
+
+
 
