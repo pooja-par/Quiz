@@ -1,6 +1,7 @@
 const questions = [
+    //All questions
     {
-        question: "The Big Bash League is based in which country?",// First question
+        question: "The Big Bash League is based in which country?",
         answers: [
             { text: "India", correct: false },
             { text: "Australia", correct: true },
@@ -8,10 +9,10 @@ const questions = [
             { text: "Bangladesh", correct: false },
         ]
 
-    }, 
+    },
 
     {
-        question: "Ben Stokes made his Test debut for England in which year?",// Second question
+        question: "Ben Stokes made his Test debut for England in which year?",
         answers: [
             { text: 2002, correct: false },
             { text: 2012, correct: false },
@@ -19,11 +20,11 @@ const questions = [
             { text: 2005, correct: false },
         ]
 
-    }, 
+    },
 
     {
-        question: "Who was the first player to reach 10,000 runs in Test cricket?",// Third question
-        answers: [
+        question: "Who was the first player to reach 10,000 runs in Test cricket?",
+                answers: [
             { text: "Sunil gavasker", correct: false },
             { text: "M. S. Dhoni", correct: false },
             { text: "AB de Villiers", correct: true },
@@ -33,7 +34,7 @@ const questions = [
     },
 
     {
-        question: "How many runs did Jack Leach score during his iconic second innings with Ben Stokes during the 2019 Ashes Third Test at Headingley?",// Fourth question
+        question: "How many runs did Jack Leach score during his iconic second innings with Ben Stokes during the 2019 Ashes Third Test at Headingley?",
         answers: [
             { text: 6, correct: false },
             { text: 0, correct: false },
@@ -44,7 +45,7 @@ const questions = [
     },
 
     {
-        question: "Which player took the most wickets in the 2019 Cricket World Cup?",// Fifth question
+        question: "Which player took the most wickets in the 2019 Cricket World Cup?",
         answers: [
             { text: "David Warner", correct: false },
             { text: "virendra sehwag", correct: false },
@@ -56,7 +57,7 @@ const questions = [
     },
 
     {
-        question: "The first official international cricket match was held in 1844 between which two nations?",// Sixth question
+        question: "The first official international cricket match was held in 1844 between which two nations?",
         answers: [
             { text: "Australia and USA", correct: false },
             { text: "India and pakistan", correct: false },
@@ -67,7 +68,7 @@ const questions = [
     },
 
     {
-        question: "How many days did the longest recorded Test match last?",// seventh question
+        question: "How many days did the longest recorded Test match last?",
         answers: [
             { text: 6, correct: false },
             { text: 2, correct: false },
@@ -78,7 +79,7 @@ const questions = [
     },
 
     {
-        question: "Nasser Hussain last captained the England Test team in which year?",// Eighth question
+        question: "Nasser Hussain last captained the England Test team in which year?",
         answers: [
             { text: 2019, correct: false },
             { text: 2007, correct: false },
@@ -89,7 +90,7 @@ const questions = [
     },
 
     {
-        question: "Eoin Morgan has played more ODI matches for Ireland than he has played Test matches for England – true or false?",// Ninth question
+        question: "Eoin Morgan has played more ODI matches for Ireland than he has played Test matches for England – true or false?",
         answers: [
             { text: false, correct: false },
             { text: false, correct: false },
@@ -100,7 +101,7 @@ const questions = [
     },
 
     {
-        question: "Who has recorded the most career runs in England Test match cricket?",// tenth question
+        question: "Who has recorded the most career runs in England Test match cricket?",
         answers: [
             { text: "James Anderson", correct: false },
             { text: "Ollie Robinso", correct: false },
