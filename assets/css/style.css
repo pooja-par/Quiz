@@ -114,19 +114,13 @@ body {
      display: block;
  }
 
-#next-btn:hover {
-    background-color: #388e3c;
-}
 
-.score {
-    font-size: 18px;
-    text-align: center;
-    margin-top: 30px;
-}
+
 
 .correct {
-    background-color: #43a047;
+    /* Styles for the correct answer, sets background color */
 
+    background: #45d820;
 }
 
 .incorrect {
