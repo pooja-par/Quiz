@@ -95,13 +95,14 @@ body {
 
     background: #222;
     color: #fff;
-
-    .btn:disabled {
-
-        cursor: no-drop;
-
-    }
 }
+
+.btn:disabled {
+
+    cursor: no-drop;
+
+}
+
 
 /* Styles for the next button, sets background color, text color, font weight,
     width, border, padding, margin, border radius, cursor, and display */
