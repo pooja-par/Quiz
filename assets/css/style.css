@@ -96,18 +96,23 @@ body {
 }
 
 
-#next-btn {
-    display: block;
-    margin: 20px auto 0;
-    padding: 12px 30px;
-    background-color: #4CAF50;
-    color: #fff;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
-}
+ #next-btn {
+     /* Styles for the next button, sets background color, text color, font weight,
+    width, border, padding, margin, border radius, cursor, and display */
+
+
+     background: #001e4d;
+     color: #fff;
+     font-weight: 500;
+     width: 150px;
+     border: 0;
+     padding: 10px;
+     margin: 20px auto 0;
+     /*text-align: left;*/
+     border-radius: 4px;
+     cursor: pointer;
+     display: block;
+ }
 
 #next-btn:hover {
     background-color: #388e3c;
