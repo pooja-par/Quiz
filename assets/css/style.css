@@ -60,9 +60,9 @@ body {
 
 
 
-/*
-  .btn{
-    
+
+.btn {
+
     background: #fff;
     color: #222;
     font-weight: 500;
@@ -74,8 +74,8 @@ body {
     border-radius: 4px;
     cursor: pointer;
     transition: all 0.3s;
-  }
-*/
+}
+
 
 .btn {
     display: block;
@@ -99,7 +99,7 @@ body {
     .btn:disabled {
 
         cursor: no-drop;
-        ;
+
     }
 }
 
@@ -115,7 +115,7 @@ body {
     border: 0;
     padding: 10px;
     margin: 20px auto 0;
-    /*text-align: left;*/
+
     border-radius: 4px;
     cursor: pointer;
     display: block;
