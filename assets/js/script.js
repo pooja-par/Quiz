@@ -123,12 +123,14 @@ const nextButton = document.getElementById("next-btn");// Reference to the next 
 let currectQuestionIndex = 0; // Index of the current question
 let score = 0; // Score tracker
 
+
 function startQuiz() {
     currectQuestionIndex = 0;
     score = 0;
     nextButton.innerHTML = "Next";
     showQuestion();
 }
+
 function showQuestion() {
     resetState();
     let currectQuestion = questions[currectQuestionIndex];
