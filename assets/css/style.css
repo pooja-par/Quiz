@@ -46,6 +46,13 @@ body {
     font-weight: 600;
 }
 
+.quiz h2 {
+
+    font-size: 18px;
+    color: #000308;
+    font-weight: 600;
+}
+
 .btn {
     display: block;
     width: 100%;
