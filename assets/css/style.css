@@ -124,6 +124,12 @@ body {
 }
 
 .incorrect {
-    background-color: #e53935;
+    /* Styles for the incorrect answer, sets background color */
+    background: #ee2929;
+}
 
+.score {
+    font-size: 18px;
+    text-align: center;
+    margin-top: 30px;
 }
