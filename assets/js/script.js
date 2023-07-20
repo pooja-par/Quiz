@@ -24,7 +24,7 @@ const questions = [
 
     {
         question: "Who was the first player to reach 10,000 runs in Test cricket?",
-                answers: [
+        answers: [
             { text: "Sunil gavasker", correct: false },
             { text: "M. S. Dhoni", correct: false },
             { text: "AB de Villiers", correct: true },
@@ -123,14 +123,14 @@ const nextButton = document.getElementById("next-btn");// Reference to the next 
 let currectQuestionIndex = 0; // Index of the current question
 let score = 0; // Score tracker
 
-
+//this function sets up the necessary variables to begin the quiz
 function startQuiz() {
     currectQuestionIndex = 0;
     score = 0;
     nextButton.innerHTML = "Next";
     showQuestion();
 }
-
+//This function is quiz implementation as it populates the user interface with the current question
 function showQuestion() {
     resetState();
     let currectQuestion = questions[currectQuestionIndex];
@@ -155,14 +155,14 @@ function showQuestion() {
 
 }
 
-
+//Resets the user interface state for the quiz
 function resetState() {
     nextButton.style.display = "none";
     while (answerButtons.firstChild) {
         answerButtons.removeChild(answerButtons.firstChild); // Clear the answer buttons container
     }
 }
-
+// Handles the selection of an answer in the quiz
 function selectAnswer(e) {
     const selectedBtn = e.target;
     const isCorrect = selectedBtn.dataset.correct === "true"; // Check if the selected answer is correct
@@ -189,14 +189,14 @@ function selectAnswer(e) {
 
 }
 
-
+//Displays the final score of the quiz to the user
 function showScore() {
     resetState();
     questionElement.innerHTML = `You scored ${score} out of ${questions.length}!`;
     nextButton.innerHTML = "Play Again";
     nextButton.style.display = "block";
 }
-
+//Handles the action when the "Next" button is clicked during the quiz
 function handleNextButton() {
     currectQuestionIndex++;
     if (currectQuestionIndex < questions.length) {
@@ -209,6 +209,7 @@ function handleNextButton() {
 
 
 
+// Event listener for the "click" event on the "Next" button during the quiz
 nextButton.addEventListener("click", () => {
     if (currectQuestionIndex < questions.length) {
         handleNextButton();
