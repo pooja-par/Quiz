@@ -90,24 +90,22 @@ body {
     font-weight: 600;
 }
 
+/* Styles for the hover state of the answer buttons, changes background and text color */
 .btn:hover:not([disabled]) {
-    /* Styles for the hover state of the answer buttons, changes background and text color */
 
     background: #222;
     color: #fff;
 
     .btn:disabled {
-        /* Styles for the disabled state of the answer buttons, changes cursor to no-drop */
 
         cursor: no-drop;
         ;
     }
 }
 
-
-#next-btn {
-    /* Styles for the next button, sets background color, text color, font weight,
+/* Styles for the next button, sets background color, text color, font weight,
     width, border, padding, margin, border radius, cursor, and display */
+#next-btn {
 
 
     background: #001e4d;
@@ -123,15 +121,15 @@ body {
     display: block;
 }
 
-
+/* Styles for the correct answer, sets background color */
 .correct {
-    /* Styles for the correct answer, sets background color */
 
     background: #45d820;
 }
 
+/* Styles for the incorrect answer, sets background color */
 .incorrect {
-    /* Styles for the incorrect answer, sets background color */
+
     background: #ee2929;
 }
 
