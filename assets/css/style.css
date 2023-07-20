@@ -1,57 +1,64 @@
 /* CSS for Cricket Quiz */
+
 body {
     font-family: Arial, sans-serif;
     background-color: #f5f5f5;
-}
+  }
 
-.app {
+  .app {
     max-width: 600px;
     margin: 0 auto;
     padding: 40px;
     background-color: #fff;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-.heading {
+  }
+ 
+    
+ .heading {
     display: flex;
     align-items: center;
     justify-content: center;
     margin-bottom: 40px;
-}
-
-.logo {
+  }
+  
+  .logo {
     width: 50px;
     height: 50px;
     margin-right: 10px;
-}
+  }
 
-.quiz {
+  .quiz{
     /* Adds padding to the quiz section */
 
     padding: 20px 0;
 
-}
+  }
 
-#question {
+  
+  #question {
     font-size: 24px;
     margin-bottom: 20px;
     text-align: center;
-}
+  }
 
-#answer-buttons {
+  
+  #answer-buttons {
     /*display: flex;*/
     flex-wrap: wrap;
     justify-content: center;
     gap: 10px;
     font-weight: 600;
-}
-
-.quiz h2 {
-
+  }
+  
+ 
+  .quiz h2{
+    
     font-size: 18px;
     color: #000308;
     font-weight: 600;
-}
+  }
+  
+ 
 
 /*
   .btn{
@@ -81,55 +88,61 @@ body {
     transition: background-color 0.3s ease;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
     font-weight: 600;
-}
-.btn:hover:not([disabled]) {
+  }
+
+ .btn:hover:not([disabled]){
     /* Styles for the hover state of the answer buttons, changes background and text color */
 
-    background: #222;
+    background:#222;
     color: #fff;
-.btn:disabled {
-        /* Styles for the disabled state of the answer buttons, changes cursor to no-drop */
 
-        cursor: no-drop;
-        ;
-    }
-}
+ .btn:disabled{
+     /* Styles for the disabled state of the answer buttons, changes cursor to no-drop */
 
+    cursor: no-drop;;
+ }   
+  }
 
- #next-btn {
-     /* Styles for the next button, sets background color, text color, font weight,
+ 
+  #next-btn{
+    /* Styles for the next button, sets background color, text color, font weight,
     width, border, padding, margin, border radius, cursor, and display */
 
 
-     background: #001e4d;
-     color: #fff;
-     font-weight: 500;
-     width: 150px;
-     border: 0;
-     padding: 10px;
-     margin: 20px auto 0;
-     /*text-align: left;*/
-     border-radius: 4px;
-     cursor: pointer;
-     display: block;
- }
+    background: #001e4d;
+    color: #fff;
+    font-weight: 500;
+    width: 150px;
+    border: 0;
+    padding: 10px;
+    margin: 20px auto 0;
+    /*text-align: left;*/
+    border-radius: 4px;
+    cursor: pointer;
+    display: block;
+  }
+  
 
-
-
-
-.correct {
-    /* Styles for the correct answer, sets background color */
+  .correct{
+     /* Styles for the correct answer, sets background color */
 
     background: #45d820;
-}
+  }
 
-.incorrect {
+  .incorrect{
     /* Styles for the incorrect answer, sets background color */
     background: #ee2929;
-}
+  }
 
-.score {
+  .score {
     font-size: 18px;
     text-align: center;
     margin-top: 30px;
-}
+  }
+
+
+ 
+  
+  
+  
+
