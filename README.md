@@ -1,17 +1,17 @@
 
-#Cricket Quiz
+## Cricket Quiz
 
 The Cricket Quiz is a simple web application that allows users to test their knowledge about cricket. It presents multiple-choice questions and provides immediate feedback on the correctness of each answer. 
 
-#Features:-
--__Multiple-choice questions: users have four questions and options.
+## Features:-
+-__Multiple-choice questions: users have four options for each question.
 
 -__Highlight correct and Incorrect Answers:
-users can identify correct answer by green color and incorrect by red
+Users can identify correct answer by green color and incorrect by red.
 
 
 -__Move to next Button:
-next button can take users to next question
+Next button can take users to next question
 
 
 -__Score tracking and display at the end of the quiz:
@@ -23,17 +23,25 @@ users can play quiz again.
 
 
 ## Features Left to Implement
--more questions
--pass fail criteria
--variety in questions
--Time limit
--Answer suffle 
+-More questions can be added.
+-Pass Fail criteria can be added.
+-More variety of questions can  be added.
+-Time limit could be added to make it more challenging. 
+-Answers could be suffled after each round of quiz. 
+
+## Technologies Used:-
+
+.HTML
+.CSS
+.JavaScript
 
 ## Validator Testing 
 
 - html files pass through the [W3C validator](https://validator.w3.org/) with no issues found.
 
 - CSS files pass through the [Jigsaw validator](https://jigsaw.w3.org/css-validator/) with no issues found.
+
+- JS files pass through [JSHint](https://jshint.com/) with no issues found.
 
 ## Unfixed Bugs
 N/A
@@ -51,16 +59,10 @@ This section should describe the process you went through to deploy the project 
 The live link can be found here - 
 
 ## Credits 
-   -Only few syntex and content are taken by youtube and google 
+   -Only few syntex and content are searched from the youtube and google. 
 
 ## Content
-  -questions are taken by following link (<https://www.radiotimes.com/quizzes/pub-quiz-cricket/>)
+  -questions are taken from the following link (https://www.radiotimes.com/quizzes/pub-quiz-cricket/)
 
-### Media
-Image is taken from istock()
-
-
-## Technologies Used:-
-.HTML
-.CSS
-.JavaScript
+## Media
+Image is taken from istock(https://www.istockphoto.com/search/2/image?phrase=cricket%20bat%20ball)
