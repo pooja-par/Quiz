@@ -82,8 +82,17 @@ body {
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
     font-weight: 600;
 }
-.btn:hover {
-    background-color: #e0e0e0;
+.btn:hover:not([disabled]) {
+    /* Styles for the hover state of the answer buttons, changes background and text color */
+
+    background: #222;
+    color: #fff;
+.btn:disabled {
+        /* Styles for the disabled state of the answer buttons, changes cursor to no-drop */
+
+        cursor: no-drop;
+        ;
+    }
 }
 
 
