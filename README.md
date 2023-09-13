@@ -44,8 +44,10 @@ The Cricket Quiz is a simple web application that allows users to test their kno
 - (<https://github.com/pooja-par/Quiz/blob/main/assets/images/css.png>)
 
 - CSS files pass through the [Jigsaw validator](https://jigsaw.w3.org/css-validator/) with no issues found.
+- (<https://github.com/pooja-par/Quiz/blob/main/assets/images/css.png>)
 
 - JS files pass through [JSHint](https://jshint.com/) with no issues found.
+- (<https://github.com/pooja-par/Quiz/blob/main/assets/images/landingpage.png>)
 
 ## Unfixed Bugs
 
