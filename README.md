@@ -1,35 +1,38 @@
 
 ## Cricket Quiz
 
-The Cricket Quiz is a simple web application that allows users to test their knowledge about cricket. It presents multiple-choice questions and provides immediate feedback on the correctness of each answer. 
+The Cricket Quiz is a simple web application that allows users to test their knowledge about cricket.It presents multiple-choice questions and provides immediate feedback on the correctness of each answer. 
 
-## Features:-
--__Multiple-choice questions: users have four options for each question.
+## Features
 
--__Highlight correct and Incorrect Answers:
-Users can identify correct answer by green color and incorrect by red.
+### Multiple-choice questions
 
+- users have four options for each question.
 
--__Move to next Button:
-Next button can take users to next question
+### Highlight correct and Incorrect Answers
 
+- Users can identify correct answer by green color and incorrect by red.
 
--__Score tracking and display at the end of the quiz:
-The more answers users give, the higher the score and the higher the points will get.
+### Move to next Button
 
+- Next button can take users to next question.
 
--__Play Again option to restart the quiz
-users can play quiz again.
+### Score tracking and display at the end of the quiz
 
+- The more answers users give, the higher the score and the higher the points will get.
+
+- Play Again option to restart the quiz
+  users can play quiz again.
 
 ## Features Left to Implement
--More questions can be added.
--Pass Fail criteria can be added.
--More variety of questions can  be added.
--Time limit could be added to make it more challenging. 
--Answers could be suffled after each round of quiz. 
 
-## Technologies Used:-
+- More questions can be added.
+- Pass Fail criteria can be added.
+- More variety of questions can  be added.
+- Time limit could be added to make it more challenging. 
+- Answers could be suffled after each round of quiz. 
+
+## Technologies Used
 
 .HTML
 .CSS
@@ -44,26 +47,30 @@ users can play quiz again.
 - JS files pass through [JSHint](https://jshint.com/) with no issues found.
 
 ## Unfixed Bugs
+
 N/A
 
 ## Deployment
 
-This section should describe the process you went through to deploy the project to a hosting platform 
-(e.g. GitHub) 
+- This section should describe the process you went through to deploy the project to a hosting platform 
+  (e.g. GitHub) 
 
 - The site was deployed to GitHub pages. The steps to deploy are as follows: 
-  - In the GitHub repository, navigate to the Settings tab 
-  - From the source section drop-down menu, select the Master Branch
-  - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
+- In the GitHub repository, navigate to the Settings tab 
+- From the source section drop-down menu, select the Master Branch
+- Once the master branch has been selected, the page will be automatically refreshed with a detailed      ribbon display to indicate the successful deployment. 
 
 The live link can be found here - (https://pooja-par.github.io/Quiz/)
 
 
 ## Credits 
-   -Only few syntex and content are searched from the youtube and google. 
+
+- Only few syntex and content are searched from the youtube and google. 
 
 ## Content
-  -questions are taken from the following link (https://www.radiotimes.com/quizzes/pub-quiz-cricket/)
+
+- Questions are taken from the following link (https://www.radiotimes.com/quizzes/pub-quiz-cricket/)
 
 ## Media
-Image is taken from istock(https://www.istockphoto.com/search/2/image?phrase=cricket%20bat%20ball)
+
+- Image is taken from istock(https://www.istockphoto.com/search/2/image?phrase=cricket%20bat%20ball)
