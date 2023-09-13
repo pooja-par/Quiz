@@ -5,6 +5,9 @@ The Cricket Quiz is a simple web application that allows users to test their kno
 
 ## Features
 
+### Landing page
+[Landing page](<https://github.com/pooja-par/Quiz/blob/main/assets/images/landingpage.png>)
+
 ### Multiple-choice questions
 
 - users have four options for each question.
@@ -40,15 +43,12 @@ The Cricket Quiz is a simple web application that allows users to test their kno
 
 ## Validator Testing 
 
-- html files pass through the [W3C validator](https://validator.w3.org/) with no issues found.
-- (<https://github.com/pooja-par/Quiz/blob/main/assets/images/css.png>)
+- html files pass through the [W3C validator](<https://github.com/pooja-par/Quiz/blob/main/assets/images/css.png>)
 
-- CSS files pass through the [Jigsaw validator](https://jigsaw.w3.org/css-validator/) with no issues found.
-- (<https://github.com/pooja-par/Quiz/blob/main/assets/images/css.png>)
+- CSS files pass through the [Jigsaw validator](<https://github.com/pooja-par/Quiz/blob/main/assets/images/css.png>)
 
 - JS files pass through [JSHint](https://jshint.com/) with no issues found.
-- (<https://github.com/pooja-par/Quiz/blob/main/assets/images/landingpage.png>)
-
+- 
 ## Unfixed Bugs
 
 N/A
